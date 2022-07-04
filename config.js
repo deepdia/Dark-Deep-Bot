@@ -48,8 +48,8 @@ global.socialm = "Insta: kumarduttadeep" //ur github or insta name
 global.location = "India" //ur location
 
 //bot bombdy
-global.botname = "White King WhatsApp Bot" //ur bot name
-global.websitex = "https://www.youtube.com/channel/UC8CNAgNIXy1O2vLBBSN7tcA" //ur website
+global.botname = "Dark Deep Bot" //ur bot name
+global.websitex = "https://www.youtube.com/channel/UCu-TyFlJEIRY_15lg7FlpGA" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
 global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
 global.author = "Udavin Wijesundara"
