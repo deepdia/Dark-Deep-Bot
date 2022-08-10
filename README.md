@@ -1,6 +1,6 @@
 <h1 align="center">DARK KING WHATSAPP BOT V1<br></h1>
 <p align="center">
-<img src="https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg" alt="animated" width="540" height="580" />
+<img src="https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg" alt="animated" width="auto" height="auto" />
 </p>
 
 <p align="center">
