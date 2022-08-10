@@ -42,7 +42,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.owner = ['+916291588399'] //ur owner number
-global.ownername = "kumarduttadeep"
+global.ownername = "☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬"
 global.ytname = "YT: Keplar Music Studio" //ur yt chanel name
 global.socialm = "Insta: kumarduttadeep" //ur github or insta name
 global.location = "India" //ur location
@@ -52,11 +52,11 @@ global.botname = "Dark Deep Bot" //ur bot name
 global.websitex = "https://www.youtube.com/channel/UCu-TyFlJEIRY_15lg7FlpGA" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
 global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "Udavin Wijesundara"
+global.author = "Deep Kumar Dutta"
 global.themeemoji = "🐶"
 global.reactmoji = "😘"
-global.ownertag = ['6291588399'] //ur owner tag
-global.ownernummenu = ['6291588399'] //ur owner number in menu and all
+global.ownertag = ['+916291588399'] //ur owner tag
+global.ownernummenu = ['+916291588399'] //ur owner number in menu and all
 global.watermark = "Dark Deep WhatsApp Bot." //ur watermark
 global.botscript = "https://www.youtube.com/channel/UCatMCR1X_VtazQKhDCgz_eg"
 global.linkz1 = "https://www.youtube.com/channel/UCu-TyFlJEIRY_15lg7FlpGA"
@@ -95,7 +95,7 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Done✓',
-    admin: 'This feature is only for admins!',
+    admin: 'This feature is only for admins!😎',
     botAdmin: 'Bot Must Be Admin First!',
     owner: 'This feature is only for owner',
     group: 'This feature is only for groups!',
@@ -103,7 +103,7 @@ global.mess = {
     bot: 'This feature is only for bot',
     wait: 'In process...',
     linkm: 'Where is the link?',
-    error: 'Error!',
+    error: 'Error!😥',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
     banChat: 'The bot was banned in this group, please contact the owner to unban'
