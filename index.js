@@ -3,12 +3,12 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
-//Thank you to Lord Buddha, Family and Myself
+//© 2022 Keplar Inc. Dark Deep Bot
+//Thank you to Deep Kumar Dutta, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe ya
 //codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
+//hai to, description me Keplar ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
 //bhi karna hai apki marzi, thank you!🦄
@@ -16,7 +16,7 @@
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
 //i give permission to do as long as you
-//put Xeons youtube channel link in the video
+//put Keplar youtube channel link in the video
 //description and tag me on githuh repo, 
 //thank you🦄
 //════════════════════════════//
@@ -51,22 +51,22 @@ console.log(color(figlet.textSync('Cheems Bot-MD', {
 	    width: 80,
 		whitespaceBreak: true
         }), 'yellow'))
-console.log(color('\n🐶 YT CHANNEL: UW TECH SHOW ','silver'))
-console.log(color('🐶 INSTAGRAM: udavin_wijesundara ','silver'))
-console.log(color('🐶 WA NUMBER: +94761192103 ','silver'))
-console.log(color('  🦄UW TECH SHOW. 2022🦄','mediumseagreen'))
+console.log(color('\n🐶 YT CHANNEL: KEPLAR MUSIC STUDIO ','silver'))
+console.log(color('🐶 INSTAGRAM: kumarduttadeep ','silver'))
+console.log(color('🐶 WA NUMBER: +916291588399 ','silver'))
+console.log(color('  🦄KEPLAR. 2022🦄','mediumseagreen'))
     console.log(color('🐶','red'), color('I Wrote This Script By Myself!', 'yellow'))
     console.log(color('🐶','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('🐶','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
-    console.log(color('🐶', 'cyan'), color('https://wa.me/94761192103'))
-    console.log(color('🐶', 'cyan'), color('Cheems Bot Is Online...', 'pink'))
+    console.log(color('🐶', 'cyan'), color('https://wa.me/916291588399'))
+    console.log(color('🐶', 'cyan'), color('Dark Deep Bot Is Online...', 'pink'))
     console.log(color('🐶', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('🐶','red'), color('Thanks For Using Cheems Bot', 'white'))
+    console.log(color('🐶','red'), color('Thanks For Using Dark Deep Bot', 'white'))
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Subscribe Xeon','Safari','1.0.0'],
+        browser: ['Subscribe Keplar','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -215,7 +215,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
+{buttonId: `wkwkwk`, buttonText: {displayText: '𝗚𝗼𝗼𝗱𝗯𝘆𝗲 🥀'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
