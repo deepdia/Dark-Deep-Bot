@@ -1,8 +1,8 @@
 {
-  "name": "White-King-WhatsApp Bot -V1",
+  "name": "Dark-King-WhatsApp Bot -V1",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/yawa107/CheemsBot-MD3",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "logo": "https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg?format=jpg&name=900x900",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
