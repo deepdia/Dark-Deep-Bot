@@ -3,12 +3,12 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
-//Thank you to Lord Buddha, Family and Myself
+//© 2022 Keplar Inc. Dark Deep Bot
+//Thank you to Deep Kumar Dutta, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe ya
 //codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
+//hai to, description me keplar ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
 //bhi karna hai apki marzi, thank you!🦄
@@ -16,7 +16,7 @@
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
 //i give permission to do as long as you
-//put Xeons youtube channel link in the video
+//put Keplar youtube channel link in the video
 //description and tag me on githuh repo, 
 //thank you🦄
 //════════════════════════════//
@@ -1620,7 +1620,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner 🤣',
+                                    displayText: 'Owner 🐦',
                                     id: 'owner'
                                 }
                             }]
@@ -1639,7 +1639,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
             { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+            { quickReplyButton: { displayText: `Owner 🐦`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
@@ -1678,8 +1678,8 @@ title:"I deserve something for my hardwork",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/8737b098fd5702daeb7e0.jpg',
-sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
+mediaUrl: 'https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg',
+sourceUrl: "https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -1751,13 +1751,13 @@ if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
 *GROUP 1*
-https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
+https://chat.whatsapp.com/LECfhE4ZtwB5lfFkYXea2l
 
 *GROUP 2*
-https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
+https://chat.whatsapp.com/LiK18Bf0QI56iOYlppyUQB
 
 *GROUP 3*
-https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
+https://chat.whatsapp.com/JyJ7FWMM7boFTQZMbOvAbW`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -1768,7 +1768,7 @@ XeonBotInc.sendMessage(from, {sticker:{url:"https://ZackXeonBotInc.github.io/med
 }
 break
 //logo maker
-case 'hoorror':{
+case 'horror':{
 if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
      let link = `https://textpro.me/horror-blood-text-effect-online-883.html`
@@ -1788,7 +1788,7 @@ if (isBanChat) return reply(mess.banChat)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'thunder2':{
+case 'thunder':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
      let link = `https://textpro.me/create-thunder-text-effect-online-881.html`
@@ -1818,7 +1818,7 @@ if (isBanChat) return reply(mess.banChat)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'matrix2':{
+case 'matrix':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
      let link = `https://textpro.me/matrix-style-text-effect-online-884.html`
@@ -1938,7 +1938,7 @@ if (isBanChat) return reply(mess.banChat)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'glue2':{
+case 'glue':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
      let link = `https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html`
@@ -1998,7 +1998,7 @@ if (isBanChat) return reply(mess.banChat)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'christmas2':{
+case 'christmas':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
      let link = `https://textpro.me/sparkles-merry-christmas-text-effect-1054.html`
@@ -2008,7 +2008,7 @@ if (isBanChat) return reply(mess.banChat)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'sci_fi':{
+case 'scifi':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
      let link = `https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html`
@@ -2038,7 +2038,7 @@ let anui = await textpro(link, q)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'watercolor2':{
+case 'watercolor':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 let link = `https://textpro.me/create-a-free-online-watercolor-text-effect-1017.html`
@@ -2048,7 +2048,7 @@ let anui = await textpro(link, q)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'halloween2':{
+case 'halloween':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 let link = `https://textpro.me/create-a-spooky-halloween-text-effect-online-1046.html`
@@ -2098,7 +2098,7 @@ let anui = await textpro(link, q)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'skeleton2':{
+case 'skeleton':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 let link = `https://textpro.me/create-halloween-skeleton-text-effect-online-1047.html`
@@ -2148,7 +2148,7 @@ let anui = await textpro(link, q)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'multicolor2':{
+case 'multicolor':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 let link = `https://textpro.me/online-multicolor-3d-paper-cut-text-effect-1016.html`
@@ -2665,7 +2665,7 @@ if (isBanChat) return reply(mess.banChat)
                 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-case 'quotesimagexxx':case 'qoutesimagexxx':
+case 'quotesimage':case 'qoutesimage':
 if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 				   let cok = await fetchJson(`http://api.lolhuman.xyz/api/random/quotesimage?apikey=${lolkey}`)
@@ -2822,7 +2822,7 @@ reply(mess.wait)
      break
 
 
-case 'lion2':
+case 'lion':
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
   if(!q) return reply(`Use ${prefix + command} text`)
@@ -2858,7 +2858,7 @@ if (isBanChat) return reply(mess.banChat)
 break
    
 
-case 'harrypot':
+case 'harrypotter2':
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
        if(!q) return reply(`Use ${prefix + command} text|text`)
@@ -2908,7 +2908,7 @@ maker.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html", [
    break
 
 
-case 'thunder':
+case 'thunder2':
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if(!q) return reply(`Use ${prefix + command} text`)
@@ -3041,7 +3041,7 @@ maker.textpro("https://textpro.me/create-space-3d-text-effect-online-985.html", 
 
 
 
-case 'lion':
+case 'lion2':
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if(!q) return reply(`Use ${prefix + command} text|text`)
@@ -4642,6 +4642,7 @@ case 'listonline': case 'listaktif': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!m.isGroup) return replay(mess.group)
+if (!isAdmins && !isCreator) return replay(mess.admin)
 let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
 let online = [...Object.keys(store.presences[id]), botNumber]
 let liston = 1
@@ -4819,6 +4820,7 @@ break
 case 'searchgc': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+if (!isCreator) return reply(mess.owner)
 if (args.length < 1) return replay(`Example :\n${prefix}searchgc Classy Editor`)
 nae = args.join(" ")
 hx.linkwa(nae).then(res => {
@@ -4870,7 +4872,7 @@ break
 case 'antitag': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-if (!isCreator) return
+if (!isCreator) return reply(mess.owner)
 if (args.length < 1) return replay(`Type on to enable\nType off to disable`)
 if (args[0] === 'on') {
 if (antitags === true) return
@@ -4902,6 +4904,7 @@ break
 case 'chatinfo': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+if (!isCreator) return reply(mess.owner)
 if (!m.quoted) replay('Reply Message')
 let msg = await m.getQuotedObj()
 if (!m.quoted.isBaileys) return replay('The message was not sent by a bot!')
@@ -5162,7 +5165,7 @@ let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender :
 await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'remove')
 }
 break
-case 'addxxx': {
+case 'addx': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!m.isGroup) return replay(mess.group)
@@ -6215,7 +6218,7 @@ if (isBanChat) return reply(mess.banChat)
                 })
             }
             break
-case 'facebookxx': case 'fbdlxxx': case 'fbmp4xxx': case 'fbxxx': {
+case 'facebook': case 'fbdl': case 'fbmp4': case 'fb': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(`Example :\n${prefix + command} https://fb.watch/cAX2dep-BZ/`)
@@ -6252,7 +6255,7 @@ reply("Link invalid!")
 }
 }
 break
-case 'fbddlxx': {
+case 'fbddl': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 let buttons = [
@@ -6562,7 +6565,7 @@ if (isBanChat) return reply(mess.banChat)
                 XeonBotInc.sendMessage(m.chat, {audio:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{title:media.title,body:"YOUTUBE MP3",mediaType:"2",thumbnail:buf,mediaUrl:`${text}`}}}).catch((err) => reply(mess.error))
                 }
             break
-           case 'ytmp4x': case 'ytvideox': {
+           case 'ytmp4': case 'ytvideo': {
 if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
                 let { ytv } = require('./lib/y2mate')
@@ -6597,8 +6600,8 @@ teks = `Here you go!`
 buffer = `https://api.dapuhy.xyz/api/randomimage/batues?apikey=0gly81wDky`
 XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
 break
-case 'ytmp32':
-  case 'youtubemp32':{
+case 'ytmp3':
+  case 'youtubemp3':{
   	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
    reply(mess.wait)
@@ -6619,8 +6622,8 @@ case 'ytmp32':
    }
   }
   break
-  case 'ytmp42':
-  case 'youtubemp42':{
+  case 'ytmp4':
+  case 'youtubemp4':{
   	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
    reply(mess.wait)
@@ -7375,68 +7378,68 @@ ${themeemoji} Detail: ${detail}`
             }
             break
  //════════════════════════════//
-case 'xxxbj':case 'exxxro':case 'cxxxum':case 'fexxxet':case 'yuxxxri':case 'traxxxp':case 'lewxxxd':case 'fexxxed':case 'erxxxon':case 'soxxxlo':case 'gaxxxsm':case 'pxxxoke':case 'axxxnal':case 'holxxxo':case 'titxxxs':case 'kxxxuni':case 'kixxxss':case 'erxxxok':case 'smxxxug':case 'baxxxka':case 'sxxxolog':case 'feexxxxtg':case 'lexxwdk':case 'puxxxssy':case 'fexxxmdom':case 'cudxxxdle':case 'erozzzyuri':case 'cum_xxxjpg':case 'bloxxxwjob':case 'erofezzzzet':case 'holzzoero':case 'erokezzzmo':case 'fox_zzzgirl':case 'futxxxanari':case 'lewdkezzmo':case 'pussy_jpzzzg':case 'kemonozzzmimi':case 'nsfw_azzzvatar': 
+case 'bj':case 'ero':case 'cum':case 'feet':case 'yuri':case 'trap':case 'lewd':case 'feed':case 'eron':case 'solo':case 'gasm':case 'poke':case 'anal':case 'holo':case 'tits':case 'kuni':case 'kiss':case 'erok':case 'smug':case 'baka':case 'solog':case 'feetg':case 'lewdk':case 'pussy':case 'femdom':case 'cuddle':case 'eroyuri':case 'cum_jpg':case 'blowjob':case 'erofeet':case 'holoero':case 'erokemo':case 'fox_zzzgirl':case 'futanari':case 'lewdkemo':case 'pussy_jpg':case 'kemonomimi':case 'nsfw_avatar': 
 	            	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 	    buffer = `http://api.lolhuman.xyz/api/random2/${command}?apikey=${lolkey}`
                     XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
     break
-case 'xxxcry':	anu = `http://api.lolhuman.xyz/api/random/cry?apikey=${lolkey}`
+case 'cry':	anu = `http://api.lolhuman.xyz/api/random/cry?apikey=${lolkey}`
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'kisxxxs3':	
+case 'kiss3':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 anu = `http://api.lolhuman.xyz/api/random/kiss?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'kixxxss2':	
+case 'kiss2':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 anu = `http://api.lolhuman.xyz/api/random2/kiss?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'crinxxxge':
+case 'cringe':
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 		anu = `http://api.lolhuman.xyz/api/random/cringe?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'daxxxnce':	
+case 'dance':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 anu = `http://api.lolhuman.xyz/api/random/dance?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'xxxkill':	
+case 'kill':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 anu = `http://api.lolhuman.xyz/api/random/kill?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'haxxxppy':	
+case 'happy':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 anu = `http://api.lolhuman.xyz/api/random/happy?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'bxxxonk':	
+case 'bonk':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 anu = `http://api.lolhuman.xyz/api/random/bonk?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'sxxxmug2':	
+case 'smug2':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
             	            	if (isBan) return reply(mess.ban)
@@ -7445,7 +7448,7 @@ anu = `http://api.lolhuman.xyz/api/random/smug?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'slaxxxp':	
+case 'slap':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
             	            	if (isBan) return reply(mess.ban)
@@ -7454,7 +7457,7 @@ anu = `http://api.lolhuman.xyz/api/random/slap?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'waxxxve':	
+case 'wave':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
             	            	if (isBan) return reply(mess.ban)
@@ -7463,21 +7466,21 @@ anu = `http://api.lolhuman.xyz/api/random/wave?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'smilexxx':	
+case 'smile':	
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 anu = `http://api.lolhuman.xyz/api/random/smile?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'bullyxxx':
+case 'bully':
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 		anu = `http://api.lolhuman.xyz/api/random/bully?apikey=${lolkey}`
 reply(mess.wait)
 XeonBotInc.sendImageAsSticker(m.chat, anu, m, { packname:global.packname, author: global.packname })
 break
-case 'xxart':case 'btsxx':case 'exoxx':case 'elxxxf':case 'lolxxxi':case 'nekoxxx':case 'shotxxxa':case 'sagirixxx':case 'shinxxxobu':case 'mexxxgumin':case 'wallnixxxme':   
+case 'art':case 'btsxx':case 'exoxx':case 'elxxxf':case 'lolxxxi':case 'nekoxxx':case 'shotxxxa':case 'sagirixxx':case 'shinxxxobu':case 'mexxxgumin':case 'wallnixxxme':   
             	            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
   buffer = `http://api.lolhuman.xyz/api/random/${command}?apikey=${lolkey}`
@@ -9451,103 +9454,103 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}unblock [tag/number]
 ╠ ${prefix}coowner [add/del]
 ╠═══════✪「 GROUP 」	        
-╠${prefix}grousetting
-╠${prefix}grouplink
-╠${prefix}ephemeral [option]
-╠${prefix}setgcpp [image]
-╠${prefix}setname [text]
-╠${prefix}setdesc [text]
-╠${prefix}group 
-╠${prefix}resetgrouplink
-╠${prefix}editinfo [option]
-╠${prefix}add [user]
-╠${prefix}kick [reply/tag]
-╠${prefix}hidetag [text]
-╠${prefix}tagall [text]
-╠${prefix}antilinkgc [on/off]
-╠${prefix}antilinktg [on/off]
-╠${prefix}antilinktt [on/off]
-╠${prefix}antilinkytch [on/off]
-╠${prefix}antilinkytvid [on/off]
-╠${prefix}antilinkig [on/off]
-╠${prefix}antilinkfb [on/off]
-╠${prefix}antilinktwit [on/off]
-╠${prefix}antilinkall [on/off]
-╠${prefix}antivirus [on/off]
-╠${prefix}antitoxic [on/off]
-╠${prefix}antiwame [on/off]
-╠${prefix}autorevoke [on/off]
-╠${prefix}autoreply [on/off]
-╠${prefix}nsfw [on/off]
-╠${prefix}mute [on/off]
-╠${prefix}promote [reply/tag]
-╠${prefix}demote [reply/tag]
-╠${prefix}react [reply emoji]
-╠${prefix}vote
-╠${prefix}devote
-╠${prefix}upvote
-╠${prefix}checkvote
-╠${prefix}delvote
-╠${prefix}checkrent
+╠ ${prefix}grousetting
+╠ ${prefix}grouplink
+╠ ${prefix}ephemeral [option]
+╠ ${prefix}setgcpp [image]
+╠ ${prefix}setname [text]
+╠ ${prefix}setdesc [text]
+╠ ${prefix}group 
+╠ ${prefix}resetgrouplink
+╠ ${prefix}editinfo [option]
+╠ ${prefix}add [user]
+╠ ${prefix}kick [reply/tag]
+╠ ${prefix}hidetag [text]
+╠ ${prefix}tagall [text]
+╠ ${prefix}antilinkgc [on/off]
+╠ ${prefix}antilinktg [on/off]
+╠ ${prefix}antilinktt [on/off]
+╠ ${prefix}antilinkytch [on/off]
+╠ ${prefix}antilinkytvid [on/off]
+╠ ${prefix}antilinkig [on/off]
+╠ ${prefix}antilinkfb [on/off]
+╠ ${prefix}antilinktwit [on/off]
+╠ ${prefix}antilinkall [on/off]
+╠ ${prefix}antivirus [on/off]
+╠ ${prefix}antitoxic [on/off]
+╠ ${prefix}antiwame [on/off]
+╠ ${prefix}autorevoke [on/off]
+╠ ${prefix}autoreply [on/off]
+╠ ${prefix}nsfw [on/off]
+╠ ${prefix}mute [on/off]
+╠ ${prefix}promote [reply/tag]
+╠ ${prefix}demote [reply/tag]
+╠ ${prefix}react [reply emoji]
+╠ ${prefix}vote
+╠ ${prefix}devote
+╠ ${prefix}upvote
+╠ ${prefix}checkvote
+╠ ${prefix}delvote
+╠ ${prefix}checkrent
 ╠═══════✪「 RPG 」	
-╠${prefix}hunt
-╠${prefix}mine
-╠${prefix}fish
-╠${prefix}heal
-╠${prefix}blood
-╠${prefix}stab
-╠${prefix}buy
-╠${prefix}sell
-╠${prefix}profile
-╠${prefix}inventory
-╠${prefix}leaderboard
+╠ ${prefix}hunt
+╠ ${prefix}mine
+╠ ${prefix}fish
+╠ ${prefix}heal
+╠ ${prefix}blood
+╠ ${prefix}stab
+╠ ${prefix}buy
+╠ ${prefix}sell
+╠ ${prefix}profile
+╠ ${prefix}inventory
+╠ ${prefix}leaderboard
 ╠═══════✪「 MAKER 」
-╠${prefix}candy
-╠${prefix}blackpinkneon
-╠${prefix}deepsea
-╠${prefix}scifi
-╠${prefix}fiction
-╠${prefix}berry
-╠${prefix}fruitjuice
-╠${prefix}biscuit
-╠${prefix}wood
-╠${prefix}chocolate
-╠${prefix}matrix
-╠${prefix}blood
-╠${prefix}halloween
-╠${prefix}wicker
-╠${prefix}darkgold
-╠${prefix}firework
-╠${prefix}skeleton
-╠${prefix}sand
-╠${prefix}glue
-╠${prefix}leaves
-╠${prefix}magma
-╠${prefix}lava
-╠${prefix}rock
-╠${prefix}bloodglas
-╠${prefix}underwater
-╠${prefix}textmaker
-╠${prefix}honey
-╠${prefix}ice
-╠${prefix}watercolor
-╠${prefix}multicolor
-╠${prefix}snow
-╠${prefix}harrypot
-╠${prefix}harrypotter
-╠${prefix}brokenglass
-╠${prefix}waterpipe
-╠${prefix}spooky
-╠${prefix}circuit
-╠${prefix}metallic
-╠${prefix}demon
-╠${prefix}sparklechristmas
-╠${prefix}christmas
-╠${prefix}3dchristmas
-╠${prefix}3dbox
-╠${prefix}waterdrop
-╠${prefix}lion2
-╠${prefix}papercut
+╠ ${prefix}candy
+╠ ${prefix}blackpinkneon
+╠ ${prefix}deepsea
+╠ ${prefix}scifi
+╠ ${prefix}fiction
+╠ ${prefix}berry
+╠ ${prefix}fruitjuice
+╠ ${prefix}biscuit
+╠ ${prefix}wood
+╠ ${prefix}chocolate
+╠ ${prefix}matrix
+╠ ${prefix}blood
+╠ ${prefix}halloween
+╠ ${prefix}wicker
+╠ ${prefix}darkgold
+╠ ${prefix}firework
+╠ ${prefix}skeleton
+╠ ${prefix}sand
+╠ ${prefix}glue
+╠ ${prefix}leaves
+╠ ${prefix}magma
+╠ ${prefix}lava
+╠ ${prefix}rock
+╠ ${prefix}bloodglas
+╠ ${prefix}underwater
+╠ ${prefix}textmaker
+╠ ${prefix}honey
+╠ ${prefix}ice
+╠ ${prefix}watercolor
+╠ ${prefix}multicolor
+╠ ${prefix}snow
+╠ ${prefix}harrypot
+╠ ${prefix}harrypotter
+╠ ${prefix}brokenglass
+╠ ${prefix}waterpipe
+╠ ${prefix}spooky
+╠ ${prefix}circuit
+╠ ${prefix}metallic
+╠ ${prefix}demon
+╠ ${prefix}sparklechristmas
+╠ ${prefix}christmas
+╠ ${prefix}3dchristmas
+╠ ${prefix}3dbox
+╠ ${prefix}waterdrop
+╠ ${prefix}lion2
+╠ ${prefix}papercut
 ╠${prefix}transformer
 ╠${prefix}neondevil
 ╠${prefix}3davengers
@@ -10015,10 +10018,10 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}math [mode]
 ╠ ${prefix}suitpvp [tag]
 ╠══✪「 ANONYMOUS CHAT 」
-╠${prefix}anonymous
-╠${prefix}start
-╠${prefix}next
-╠${prefix}leave
+╠ ${prefix}anonymous
+╠ ${prefix}start
+╠ ${prefix}next
+╠ ${prefix}leave
 ╠══════✪「 TOOL 」
 ╠ ${prefix}translate [text]
 ╠ ${prefix}fliptext [text]
@@ -10033,12 +10036,12 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}getmsg
 ╠ ${prefix}delmsg
 ╠══════✪「 ISLAMIC 」
-╠${prefix}juzamma
+╠ ${prefix}juzamma
 ╠══════✪「 lNDO 」
 ╠ ${prefix}darkjoke
 ╠ ${prefix}quotes
 ╠ ${prefix}animequotes
-╠${prefix}jalantikus-meme
+╠ ${prefix}jalantikus-meme
 ╠ ${prefix}merdeka-news 
 ╠ ${prefix}kontan-news 
 ╠ ${prefix}cnbc-news 
@@ -10054,18 +10057,18 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}antara-news 
 ╠ ${prefix}cnn-news 
 ╠ ${prefix}fajar-news 
-╠${prefix}friendshipshortstory
-╠${prefix}loveshortstory
-╠${prefix}sacrificeshortstory
-╠${prefix}disturbingshortstory
-╠${prefix}islamicshortstory
-╠${prefix}cinemaschedule
-╠${prefix}nowplayingcinema
-╠${prefix}amino
-╠${prefix}wiki
-╠${prefix}covidindo
-╠${prefix}earthquake
-╠${prefix}tvschedule
+╠ ${prefix}friendshipshortstory
+╠ ${prefix}loveshortstory
+╠ ${prefix}sacrificeshortstory
+╠ ${prefix}disturbingshortstory
+╠ ${prefix}islamicshortstory
+╠ ${prefix}cinemaschedule
+╠ ${prefix}nowplayingcinema
+╠ ${prefix}amino
+╠ ${prefix}wiki
+╠ ${prefix}covidindo
+╠ ${prefix}earthquake
+╠ ${prefix}tvschedule
 ╠══════✪「 INDO HSCOPE 」
 ╠${prefix}nomorhoki
 ╠${prefix}artimimpi 
@@ -10945,8 +10948,8 @@ case 'tqtt':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(`Thanks to
-LORD BUDDHA
-Xeon (Me)
+DEEP KUMAR DUTTA
+Keplar (Me)
 My family
 And all friends who helped assemble this sexy script !!!`)
 break
