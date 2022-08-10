@@ -1,6 +1,6 @@
 <h1 align="center">WHITE KING WHATSAPP BOT V1<br></h1>
 <p align="center">
-<img src="https://media.tenor.com/images/e15cb1453a09e25bab41116d930329bf/tenor.gif" alt="animated" width="540" height="280" />
+<img src="https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg" alt="animated" width="540" height="280" />
 </p>
 
 <p align="center">
