@@ -1,10 +1,10 @@
-<h1 align="center">WHITE KING WHATSAPP BOT V1<br></h1>
+<h1 align="center">DARK KING WHATSAPP BOT V1<br></h1>
 <p align="center">
 <img src="https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg" alt="animated" width="540" height="280" />
 </p>
 
 <p align="center">
-Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/uwtechshow" target="_blank">Udavin</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+Dark Deep Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/kumarduttadeep" target="_blank">Deepdia</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 
 <p align="center">
@@ -14,9 +14,9 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 ------
 ## ```Connect With Me```
 <p align="center">
-<a href="https://wa.me/94761192103"><img src="https://img.shields.io/badge/Contact Udavin-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://chat.whatsapp.com/Ivsw8fEw5lW0n0qKEDHfUX"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://www.youtube.com/channel/UC8CNAgNIXy1O2vLBBSN7tcA"><img src="https://img.shields.io/badge/Subscribe uw tesh show-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+<a href="https://wa.me/+916291588399"><img src="https://img.shields.io/badge/Contact Udavin-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://www.youtube.com/channel/UCu-TyFlJEIRY_15lg7FlpGA"><img src="https://img.shields.io/badge/Subscribe uw tesh show-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 </p>
 
 ## ```Bot Support Groups```
@@ -30,7 +30,7 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 [![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/uwtechshow/White-King-WhatsApp-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)]()https://heroku.com/deploy?template=https://github.com/darkdeepbot/dark-deep
 
 # Install Manually 👇
 ## `Requirements`
@@ -58,8 +58,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/uwtechshow/White-King-WhatsApp-Bot
-cd White-King-WhatsApp-Bot
+git clone https://github.com/darkdeepbot/dark-deep
+cd Dark-Deep-Bot
 npm start
 ```
 ## `For VPS`
@@ -70,8 +70,8 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagrmagick
 apt install bash
-git clone https://github.com/uwtechshow/White-King-WhatsApp-Bot
-cd White-King-WhatsApp-Bot
+git clone https://github.com/darkdeepbot/dark-deep 
+cd Dark-King-WhatsApp-Bot
 npm start
 ```
 ## `For 24/7 Activation (Termux)`
