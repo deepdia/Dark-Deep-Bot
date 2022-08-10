@@ -18,7 +18,7 @@ Dark Deep Bot Multi Device is a automated whatsapp bot created by <a href="https
 <a href="https://chat.whatsapp.com/"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <script src="https://apis.google.com/js/platform.js"></script>
 
-<div class="g-ytsubscribe" data-channelid="UC8agz4tGDexq1A9borHVVFw" data-layout="default" data-count="hidden"></div><br>
+<div class="g-ytsubscribe" data-channelid="UC8agz4tGDexq1A9borHVVFw" data-layout="full" data-count="default"></div><br>
 </p>
 
 ## ```Bot Support Groups```
