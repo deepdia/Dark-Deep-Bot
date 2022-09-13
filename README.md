@@ -22,9 +22,9 @@ Dark Deep Bot Multi Device is a automated whatsapp bot created by <a href="https
 
 ## ```Bot Support Groups```
 
-- [`1st GC`](https://chat.whatsapp.com/Ivsw8fEw5lW0n0qKEDHfUX)
-- [`2nd GC`](https://chat.whatsapp.com/Jub3moTE7jaBERo8DqWXC1)
-- [`3rd GC`](https://chat.whatsapp.com/JrENEhRXHv4Lix1TxjsYDF)
+- [`1st GC`](https://chat.whatsapp.com/)
+- [`2nd GC`](https://chat.whatsapp.com/)
+- [`3rd GC`](https://chat.whatsapp.com/)
 
   
   ## `Scan QR Code For Session`
