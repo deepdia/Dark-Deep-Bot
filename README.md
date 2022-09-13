@@ -1,4 +1,4 @@
-<h1 align="center">DARK KING WHATSAPP BOT V1<br></h1>
+<h1 align="center">DARK DEEP WHATSAPP BOT V1<br></h1>
 <p align="center">
 <img src="https://telegra.ph/file/78104dbfeb6f03b2ce3c7.jpg" alt="animated" width="auto" height="auto" />
 </p>
@@ -42,8 +42,8 @@ Dark Deep Bot Multi Device is a automated whatsapp bot created by <a href="https
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/uwtechshow/White-King-WhatsApp-Bot.git
-cd White-King-WhatsApp-Bot
+git clone https://github.com/darkdeepbot/dark-deep.git
+cd Dark-Deep-Bot
 
 npm start
 ```
