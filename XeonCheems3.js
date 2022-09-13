@@ -3892,6 +3892,7 @@ break
 case 'listpc': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+	if (!isCreator) return replay(mess.owner)
 let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
 let teks = `     「 Personal Chat List 」\n\nThere are ${anu.length} users using bot in personal chat`
 for (let i of anu) {
@@ -3903,6 +3904,7 @@ break
 case 'listgc': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+	if (!isCreator) return replay(mess.owner)
 let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
 let teks = `     「 Group Chat 」\n\nThere are ${anu.length} users using bot in group chat`
 for (let i of anu) {
@@ -3929,6 +3931,7 @@ break
 case 'setcmd': case 'addcmd': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+	if (!isCreator) return replay(mess.owner)
 if (!m.quoted) return replay('Reply Message!')
 if (!m.quoted.fileSha256) return replay('SHA256 Hash Missing')
 if (!args.join(" ")) return replay(`For What Command?`)
@@ -3947,6 +3950,7 @@ break
 case 'delcmd': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+	if (!isCreator) return replay(mess.owner)
 let hash = m.quoted.fileSha256.toString('base64')
 if (!hash) return replay(`No hashes`)
 if (global.db.sticker[hash] && global.db.sticker[hash].locked) return replay('You have no permission to delete this sticker command')
@@ -3957,6 +3961,7 @@ break
 case 'listcmd': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+	if (!isCreator) return replay(mess.owner)
 let teks = `
 *Hash List*
 Info: *bold* hash is Locked
@@ -3980,6 +3985,7 @@ break
 case 'addmsg': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+	if (!isCreator) return replay(mess.owner)
 if (!m.quoted) return replay(`Reply message you want to save in database`)
 if (!args.join(" ")) return replay(`Example : ${prefix + command} file name`)
 let msgs = global.db.database
@@ -4004,6 +4010,7 @@ break
 case 'listmsg': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
+	if (!isCreator) return replay(mess.owner)
 let msgs = JSON.parse(fs.readFileSync('./src/database.json'))
 let seplit = Object.entries(global.db.database).map(([nama, isi]) => { return { nama, ...isi } })
 let teks = '「 LIST DATABASE 」\n\n'
@@ -4985,11 +4992,15 @@ case 'tag': case 'tagall': {
 if (isBanChat) return reply(mess.banChat)
 if (!m.isGroup) return replay(mess.group)
 if (!isAdmins && !isCreator) return replay(mess.admin)
-let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
- 
- 🌹 *Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
+let teks = `
+ ┏━𝐃𝐀𝐑𝐊 𝐃𝐄𝐄𝐏━━━┑
+ ┃
+ ┃┄┄┄┄┄┄┄┄┄┄┄┊
+ ┃*𝐌𝐄𝐒𝐒𝐀𝐆𝐄 : ${q ? q : 'blank'}*\n\n
+ ┗━━━━━━━━
+ ┃╔════💠`
 for (let mem of participants) {
-teks += `${global.themeemoji} @${mem.id.split('@')[0]}\n`
+teks += `┃╠ @${mem.id.split('@')[0]}\n`
 }
 XeonBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
 }
